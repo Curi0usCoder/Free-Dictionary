@@ -1,0 +1,1 @@
+C:\Users\thath\source\repos\Free Dictionary\Free Dictionary\Free Dictionary.csproj;x64

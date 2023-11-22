@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Free_Dictionary.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+        Spacing="25"
+        Padding="30,0"
+        VerticalOptions="Center">
+
+            <StackLayout>
+
+                <Entry x:Name="textInput" Placeholder="Enter Here" />
+                <Button Text="Search" Clicked="SubmitButton_Clicked" />
+            </StackLayout>
+
+            <Label
+            x:Name="wordText2"
+            Text=""
+            SemanticProperties.HeadingLevel="Level1"
+            FontSize="32"
+            TextColor="#39A7FF"
+            HorizontalOptions="Start" />
+            
+            <Label
+            x:Name="wordText"
+            Text=""
+            SemanticProperties.HeadingLevel="Level1"
+            FontSize="22"
+            TextColor="#A9A9A9"
+            HorizontalOptions="Start" />
+
+            <Label
+            x:Name="massageTxt2"
+            Text=""
+            SemanticProperties.HeadingLevel="Level1"
+            FontSize="32"
+            TextColor="#39A7FF"
+            HorizontalOptions="Start" />
+
+            <Label
+            x:Name="massageTxt"
+            Text=""
+            SemanticProperties.HeadingLevel="Level1"
+            FontSize="22"
+            TextColor="#A9A9A9"
+            HorizontalOptions="Start" />
+
+
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
